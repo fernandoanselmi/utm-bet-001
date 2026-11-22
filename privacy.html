@@ -19,7 +19,7 @@
   <p>Your naming rules ("conventions"), presets, the links you build (history, up to the most recent 500 — clearable any time from the History tab), your last-used tag values per website (most recent 200 sites), a half-built link draft for this browser session, and — if you activate Pro — your licence key. All of it is stored locally in your browser (<code>chrome.storage.local</code>). Uninstalling the extension deletes it. Clearing history does not remove per-website tag memory; uninstalling does.</p>
 
   <h2>What leaves your browser</h2>
-  <p>Exactly one thing: when you activate a Pro licence, and then at most once a day, the extension sends your licence key to Dodo Payments (<code>live.dodopayments.com</code>) to check it is valid. Nothing else is transmitted. The URLs you build, your rules and your history are never sent anywhere.</p>
+  <p>Exactly one thing: when you activate a Pro licence, when you deactivate it on a browser, and then at most once a day, the extension sends your licence key (and its activation id) to Dodo Payments (<code>live.dodopayments.com</code>) to check or release it. Nothing else is transmitted. The URLs you build, your rules and your history are never sent anywhere.</p>
   <p>Dodo Payments' licence-activation response includes limited purchaser details (name and email). The extension reads only whether the licence is valid, its activation/product identifiers and any error message. It does not store your name or email, and does not send them anywhere. Like any web request, the licence check necessarily reveals your IP address to Dodo Payments; their own privacy policy applies to that processing and to checkout.</p>
   <p>When the panel opens it reads the current tab's URL to pre-fill the destination field. That URL is processed locally and stored only if you build and copy a link from it.</p>
 
@@ -35,7 +35,7 @@
   <p>The extension contains no analytics, no advertising and no remote code. Payments are handled by Dodo Payments as merchant of record; their privacy policy applies to the checkout itself.</p>
 
   <h2>Contact</h2>
-  <p>Questions: open an issue on the project repository or reply to your licence receipt email.</p>
+  <p>Questions: <a href="https://github.com/fernandoanselmi/utm-bet-001/issues">open an issue</a> or reply to your licence receipt email.</p>
 </div>
 </body>
 </html>
