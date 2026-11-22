@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UTM Builder — Every client's naming rules, enforced. $12 once.</title>
+<meta name="description" content="A Chrome side-panel UTM builder that refuses off-rule values per client. No account, no subscription; your links and rules never leave your browser.">
+<style>
+  :root{--ink:#1c2521;--muted:#5f6b66;--accent:#0e6b5c;--bg:#f5f5f4;--panel:#fff;--line:#e2e5e3}
+  *{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  .wrap{max-width:760px;margin:0 auto;padding:48px 20px 64px}
+  h1{font-size:34px;line-height:1.15;letter-spacing:-.02em;margin:0 0 12px}
+  h2{font-size:20px;letter-spacing:-.01em;margin:36px 0 8px}
+  p{margin:0 0 12px} .lede{font-size:17px;color:var(--muted)}
+  .price{font-size:15px;font-weight:650}.price s{color:var(--muted);font-weight:450}
+  .cta{display:inline-block;margin-top:14px;background:var(--accent);color:#fff;font-weight:650;padding:12px 22px;border-radius:10px;text-decoration:none}
+  table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14px}
+  th,td{text-align:left;padding:10px 12px;border-top:1px solid var(--line)} th{border-top:0;background:#eef3f1}
+  ul{margin:0 0 12px;padding-left:20px} li{margin:4px 0}
+  code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
+  pre{background:#1c2521;color:#dcefe8;border-radius:10px;padding:16px;overflow-x:auto}
+  footer{margin-top:48px;color:var(--muted);font-size:13px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-weight:650">UTM Builder</p>
+  <h1>UTM governance without the subscription.</h1>
+  <p class="lede">Freelancer or small agency? Your reports break because every client spells campaign tags differently. UTM Builder enforces each client's naming rules as you build links — off-rule values can't be copied quietly — the Copy button stays off until the link follows the rules. No account. No subscription. Your links and rules never leave your browser; only an optional Pro licence key is checked.</p>
+  <p class="price">Free for one client · Pro $12 once. Hosted rule tools run $9–159/month.</p>
+  <!-- TODO: replace # with the Chrome Web Store listing URL once live -->
+  <a class="cta" href="#">Add to Chrome — free</a>
+
+  <h2>The 10-second flow</h2>
+  <img src="assets/panel.png" alt="UTM Builder side panel building a tagged link with source, medium and campaign pickers and a GA4 channel preview" width="400" style="max-width:100%;height:auto;border:1px solid #c9cfcc;border-radius:14px">
+  <p>Pick Source and Medium from the client's lists; Campaign is the one field you type. Capitals are fixed, off-rule values are blocked with the reason, and Enter copies.</p>
+
+  <h2>What Pro adds (and what stays free)</h2>
+  <table>
+    <tr><th></th><th>Free</th><th>Pro — $12 once</th></tr>
+    <tr><td>Client rule sets enforced</td><td>1</td><td>Unlimited</td></tr>
+    <tr><td>Share a rule file with a client</td><td>Yes (replaces their one set)</td><td>Yes — keep yours too</td></tr>
+    <tr><td>History, bulk building, audit of old links, GA4 channel preview</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>Account / data leaving your browser</td><td>None</td><td>Licence key only, to validate Pro</td></tr>
+  </table>
+
+  <h2>Audit the mess you already shipped</h2>
+  <p>Paste links you already sent. UTM Builder flags every one that breaks the client's rules — and hands back fixed versions as a spreadsheet. Hosted tools with link audits run $79–160 a month.</p>
+
+  <h2>Honest limits</h2>
+  <ul>
+    <li>No short links, no click tracking, no team sync — that's a different product, and it's why this can cost $12 once.</li>
+    <li>Rules live on your computer. Back them up with the export button.</li>
+    <li>Made by a marketer who got tired of cleaning up UTMs at report time.</li>
+  </ul>
+
+  <footer><a href="privacy.html">Privacy policy</a> · UTM Builder is not affiliated with Google. GA4 is a trademark of Google LLC.</footer>
+</div>
+</body>
+</html>

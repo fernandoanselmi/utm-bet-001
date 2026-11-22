@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UTM Builder — Privacy policy</title>
+<style>
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;background:#f5f5f4;color:#1c2521;line-height:1.6}
+  .wrap{max-width:680px;margin:0 auto;padding:48px 20px 64px}
+  h1{font-size:26px} h2{font-size:17px;margin-top:28px} a{color:#0e6b5c}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy policy — UTM Builder</h1>
+  <p><em>Last updated: 22 November 2026.</em></p>
+
+  <h2>What the extension stores</h2>
+  <p>Your naming rules ("conventions"), presets, the links you build (history, up to the most recent 500 — clearable any time from the History tab), your last-used tag values per website (most recent 200 sites), a half-built link draft for this browser session, and — if you activate Pro — your licence key. All of it is stored locally in your browser (<code>chrome.storage.local</code>). Uninstalling the extension deletes it. Clearing history does not remove per-website tag memory; uninstalling does.</p>
+
+  <h2>What leaves your browser</h2>
+  <p>Exactly one thing: when you activate a Pro licence, and then at most once a day, the extension sends your licence key to Dodo Payments (<code>live.dodopayments.com</code>) to check it is valid. Nothing else is transmitted. The URLs you build, your rules and your history are never sent anywhere.</p>
+  <p>Dodo Payments' licence-activation response includes limited purchaser details (name and email). The extension reads only whether the licence is valid, its activation/product identifiers and any error message. It does not store your name or email, and does not send them anywhere. Like any web request, the licence check necessarily reveals your IP address to Dodo Payments; their own privacy policy applies to that processing and to checkout.</p>
+  <p>When the panel opens it reads the current tab's URL to pre-fill the destination field. That URL is processed locally and stored only if you build and copy a link from it.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>storage</strong> — to save your rules, presets and history on this device.</li>
+    <li><strong>activeTab</strong> — to pre-fill the destination URL from the tab you are on, only when you open the panel.</li>
+    <li><strong>sidePanel</strong> — to show the builder beside your page.</li>
+    <li><strong>Access to live.dodopayments.com/licenses</strong> — the licence check described above. No other website access. Copying uses the standard clipboard API in the panel when you press Copy.</li>
+  </ul>
+
+  <h2>No analytics, no tracking</h2>
+  <p>The extension contains no analytics, no advertising and no remote code. Payments are handled by Dodo Payments as merchant of record; their privacy policy applies to the checkout itself.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: open an issue on the project repository or reply to your licence receipt email.</p>
+</div>
+</body>
+</html>
